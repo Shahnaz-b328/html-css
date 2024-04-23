@@ -1,0 +1,17 @@
+.blog{
+    border: 5px solid green;
+    border-radius: 15px;
+    margin: 40px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    float: left;
+    background-color: bisque;
+    color: navy;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}

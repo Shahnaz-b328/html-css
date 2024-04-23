@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Cascading Style Sheet</title>
+    <style>
+        h1{
+            color: navy;
+        }
+        h2{
+            color: #646464;
+        }
+        h3{
+            color:rgb(110, 128, 255)
+        }
+        p{
+            background-color:rosybrown;
+            color:white;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            height: 100px;
+            width: 300px;
+            
+        }
+     /*CSSID*/
+        #news{
+            background-color:palevioletred;
+            color:cornsilk;
+            font-size:25px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            height: 250;
+            width: 450;
+        }
+        /*CSSClass*/
+        .month{
+            background-color: gray;
+            color: crimson;
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            height: 100px;
+            width: 200px;
+        }
+        h1.month{
+            background-color:lightslategrey;
+        }
+        .vital{
+            color:red;
+            font-size: 30px;
+        }
+        .blog{
+            color: tomato;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sports</h1>
+    <h1 class="month">Rain likely in Dhaka, other divisions</h1>
+    <h2>Entertainment</h2>
+    <h3>LifeStyle</h3>
+    <p>5 places in Asia to enjoy water sports</p>
+    <p>5 most beautiful mosques in Europe</p>
+    <p id="news">iPhone 15 to be released officially on <span class="vital">September 12</span></p>
+    <ol class="month">
+        <li>January</li>
+        <li>February</li>
+        <li>March</li>
+    </ol>
+    <ul class="month">
+        <li>Saturday</li>
+        <li>Sunday</li>
+        <li>Monday</li>
+    </ul>
+    <div class="blog">
+        <h4>Sajek</h4>
+        <p>It's a beautiful place</p>
+    </div>
+    <div class="blog">
+        <h4>Madhovkundo</h4>
+        <p>It's a beautiful Waterfall</p>
+    </div>
+</body>
+</html>
