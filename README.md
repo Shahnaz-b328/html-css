@@ -1,2 +1,2 @@
-# html-css
-# html-css
+# HTML -> Hyper Text MarkupLanguage
+# CSS -> Cascading Style Sheet
